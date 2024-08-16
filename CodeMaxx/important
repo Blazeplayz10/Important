@@ -1,0 +1,27 @@
+<p id="textToCopy">Text to copy goes here.</p>
+<button onclick="copyText()" class="btn btn-outline-info"><i class="bi bi-clipboard-plus"></i></button>
+
+
+
+<script>
+    function copyText() {
+        var text = document.getElementById("textToCopy").innerText;
+        
+        // Create a temporary input element
+        var tempInput = document.createElement("input");
+        tempInput.value = text;
+        document.body.appendChild(tempInput);
+        
+        // Select the text inside the input element
+        tempInput.select();
+        tempInput.setSelectionRange(0, 99999); // For mobile devices
+        
+        // Copy the selected text to the clipboard
+        document.execCommand("copy");
+        
+        // Remove the temporary input element
+        document.body.removeChild(tempInput);
+        
+        alert("Text copied to clipboard: " + text);
+    }
+</script>

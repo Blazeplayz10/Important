@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    background-color: bisque;
+}
+
+.ognavbar{
+    background-color: lightsalmon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ognavbar h2{
+    color: white;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.ognavbar a > input[type=button]{
+    border-radius: 9px;
+    border: none;
+    padding: 2px;
+    margin-left: 3px;
+    color: white;
+    background-color: transparent;
+}
+
+.ognavbar span > a input[type=button]{
+    border: 1px solid dodgerblue;
+    border-radius: 9px;
+}
+
+.nav_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+.hero img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    filter: blur(3px);
+}
+
+.hero_text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hero_text span{
+    font-weight: bolder;
+}
+
+.hero_text h1{
+    text-transform: uppercase;
+}
+
+.hero_text h1 > span{
+    font-size: xx-small;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_side{
+    width: 10%;
+    margin-top: 30px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cyclings h2{
+    color: white;
+}
+
+.cyclings a{
+    text-decoration: none;
+}
+
+.cyclings > a input[type=button]{
+    background-color: lightsalmon;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.ins > a input[type=button]{
+    background-color: lightsalmon;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.right_side{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.tutor_space{
+    background-color:dodgerblue;
+    width: 20%;
+    border-radius: 9px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.timg img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.tinfo{
+    text-align: center;
+    color: white;
+}
+
+.a_and_n{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.age{
+    border: 1px solid;
+    border-radius: 9px;
+    background-color: white;
+    color: dodgerblue;
+}
+
+.nationality{
+    border: 1px solid;
+    border-radius: 9px;
+    background-color: white;
+    color: dodgerblue;
+}
+
+.tutor_space a > input[type=button]{
+    width: 100%;
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    margin-bottom: 0px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+footer{
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+
+.footer_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.socials h3{
+    text-transform: uppercase;
+}
+
+.legals h3{
+    text-transform: uppercase;
+}
+
+.links_items a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    border-top: 1px solid white;
+}

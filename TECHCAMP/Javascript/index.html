@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Javascript</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="body">
+    <button onclick="bodyChanger">Body Changer</button>
+
+    <h2>Javascript Methods</h2>
+
+    <p id="java_p">Click to see hidden message!</p>
+    <button onclick="document.getElementById('java_p').innerHTML = 'If You Have seen this, Welcome to the Force' ">Click</button>
+
+    <p id="css_change">This is my property</p>
+    <button onclick="document.getElementById('css_change').style.fontSize= '30px' ">View hidden message</button>
+
+    <p id="new_function">Who am I ?</p>
+    <button class="button" onclick="newFunction()">RESPONSE</button>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

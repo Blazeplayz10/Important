@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Red Hat Text";
+    src: url(../assets/RedHatText-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Text";
+}
+
+/* Top Nav */
+#top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#top-nav h1{
+    width: 60%;
+}
+#top-nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+#top-nav li{
+    list-style: none;
+}
+#top-nav li > a{
+    font-size: x-large;
+    color: black;
+    font-weight: bolder;
+}
+/* Content Cards */
+.content-card{
+    border: 1px solid gray;
+}
+
+
+/* Bottom Nav */
+#bottom-nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    box-shadow: 8px 0 0 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#bottom-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+#bottom-nav ul > li > a{
+    color: black;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 20px;
+}
+#bottom-nav ul > li > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: transparent;
+}
+#bottom-nav ul > li > button :hover{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}

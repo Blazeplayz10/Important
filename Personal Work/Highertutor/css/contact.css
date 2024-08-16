@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    background-color: bisque;
+}
+
+.ognavbar{
+    background-color: lightsalmon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ognavbar a{
+    color: white;
+    margin-left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.Abutton > input[type=button]{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.ognavbar a > input[type=button]{
+    border-radius: 9px;
+    border: none;
+    padding: 2px;
+    margin-left: 3px;
+    color: white;
+    background-color: transparent;
+}
+
+.ognavbar span > a input[type=button]{
+    border: 1px solid dodgerblue;
+    border-radius: 9px;
+}
+
+.nav_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+.hero img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    filter: blur(3px);
+}
+
+.hero_text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hero_text span{
+    font-weight: bolder;
+}
+
+.hero_text h1{
+    text-transform: uppercase;
+}
+
+.hero_text h1 > span{
+    font-size: xx-small;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.text_area{
+    border: 2px solid white;
+    border-radius: 9px;
+    background-color: white;
+    color: lightsalmon;
+}
+
+.text_area p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=text]{
+    border: 2px solid black;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    width: 100%;
+    height: 20px;
+    background-color: lightsalmon;
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
+.other{
+    background-color: white;
+    border-radius: 9px;
+}
+
+.other h3{
+    color: gray;
+}
+
+.other p{
+    color: lightsalmon;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.item p{
+    color: lightsalmon;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+
+.footer_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.socials h3{
+    text-transform: uppercase;
+}
+
+.legals h3{
+    text-transform: uppercase;
+}
+
+.links_items a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    border-top: 1px solid white;
+}

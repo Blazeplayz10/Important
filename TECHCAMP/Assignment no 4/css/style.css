@@ -1,0 +1,82 @@
+body{
+    background-color: transparent;
+    background-image: url(../Img/2h-media-Q_x3Equ11Jk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.form_section_1 {
+    padding: 10px 0px 30px 0px;
+    width: 50%;
+    background-color: skyblue;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    background-color: transparent;
+    color: white;
+    width: 20%;
+    height: 1cm;
+    border-radius: 10px;
+    outline: none;
+}
+
+.submit-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.labelname {
+    color: white;
+}
+
+.red{
+    background-color: transparent;
+}
+
+input[type=text]::placeholder{
+    color: white;
+    outline: none;
+}
+
+input[type=text]{
+    width: 60%;
+    height: 1cm;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type=password]{
+    width: 99%;
+    height: 1cm;
+    background-color: transparent;
+    border-radius: 7px;
+    outline: none;
+    width: 60%;
+}
+
+input[type=password]::placeholder{
+    color: white;
+    outline: none;
+}
+
+p{
+    color: white;
+}
+
+.a2{
+    color: grey;
+}
+
+.a1{
+    color: navy;
+}
+
+h3{
+    color: gray;
+    
+}

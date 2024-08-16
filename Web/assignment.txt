@@ -1,0 +1,9 @@
+ASSIGNMENT: 
+    * The difference between creating variables with "let" and "var"
+        Var: Can be re-declared
+            Can't be used outside functions they are declared in
+        Let: Can't be re-declared
+            Can be used outside functions they are declared in
+    * What are "``" used for in JS?
+            String Interpolation with Template Literals
+    * Operators: Arithmetic(+, -, *), Assignment(+=, -=, =), Comparison(>, <, >=), Logical(&&, ||, !), Ternary(?)

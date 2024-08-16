@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: forestgreen;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+input[type=search]{
+    border-radius: 90px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+img{               
+    width: 100%;
+    height: auto;
+}
+
+.food_slide{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.food_slide img{
+    height: 180px;
+    padding: 7px;
+    border-radius: 9px;
+}
+
+.about_section{
+    background: linear-gradient(to right, #228b22, #a8dca0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about_left h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 50px;
+}
+
+.about_right p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 55%;
+    font-weight: lighter;
+    font-style:  oblique;
+    letter-spacing: 2px;
+}
+
+.catalogue{
+    background-color: #228b2266;
+    display: flex;
+}
+.food_links{
+    width: 20%;
+    background-color: yellow;
+    text-align: center;
+}
+
+.food_links h4{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    color: forestgreen;
+    font-size: 20px;
+}
+
+.food_menu{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.food_menu img{
+    height: 180px;
+    border-radius: 200px;
+}
+
+.food_links_items a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    background-color: white;
+    font-style: lighter;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.food_links_items a:hover{
+    background-color: yellow;
+    color: forestgreen;
+    border-bottom: 3px solid white;
+}
+
+.food_links_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

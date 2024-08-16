@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Force Sign-Up</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="top_header">
+            <h1>Welcome to The Force</h1>
+        </div>
+
+        <div class="form_section_1">
+            <h3 class="personal_h3">Personal Information</h3>
+            <form>
+                <label for="fname">First Name</label> <br>
+                <input type="text" placeholder="Type here..." name="fname"><br>
+
+                <label for="lname">Last Name</label> <br>
+                <input type="text" placeholder="Type here..." name="lname">
+            </form>
+        </div>
+
+        <div class="form_section_2">
+            <h3 class="track_h3">Choose your Track</h3>
+            <form>
+                <label class="radio_container">
+
+
+                </label>
+                <input type="radio" name="html">
+                <label for="html">HTML/CSS</label><br>
+
+                <input type="radio" name="js">
+                <label for="js">JAVASCRIPT</label><br>
+            </form>
+        </div>
+
+        <div class="form_section_3">
+            <form>
+                <input type="checkbox" name="age1">
+                <label for="age1">Age 10-13</label><br>
+
+                <input type="checkbox" name="age2">
+                <label for="age2">Age 14-17</label>
+            </form>
+        </div>
+
+        <div class="drop_section">
+            <label for="career">Choose a career:</label><br>
+            <select name="career" id="">
+                <option value="Front-End"> Front-End Developer</option>
+                <option value="Back-end"> Back-end Developer</option>
+                <option value="Full-stack"> Full-stack Developer</option>
+                <option value="Dev-Ops"> Dev-Ops</option>
+                <option value="Database"> Database Engineer</option>
+            </select>
+        </div>
+        <div class="text_section">
+            <textarea name="about" placeholder="About Myself..." id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </div>
+</body>
+
+</html>

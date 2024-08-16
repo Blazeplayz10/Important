@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: cornflowerblue;
+}
+
+.nav_bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.navt h1{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    padding-left: 5px;
+}
+
+.nav_links{
+    padding-right: 5px;
+}
+
+.nav_links a input[type=button]{
+    color: white;
+    background-color: transparent;
+    border-radius: 9px;
+    padding: 5px;
+    border: none;
+    border: 2px solid gray;
+}
+
+.nav_links span > a input[type=button]{
+    border: 2px solid blue;
+}
+
+.nav_links :hover{
+    background-color: blue;
+}
+
+.nav_hero{
+    position: relative;
+}
+
+.nav_img{
+    width: 100%;
+}
+
+.nav_img img{
+    height: 80vh;
+    width: 100%;
+}
+
+.nav_info{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+    font-size: x-large;
+}
+
+.nav_info h1{
+    text-transform: uppercase;
+}
+
+.genres{
+    background-color: cornflowerblue;
+    width: 30%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.gitem_items a > input[type=button] {
+    background-color: transparent;
+    color: white;
+    border-radius: 9px;
+    padding: 2px;
+    border:2px solid gray;
+    margin-bottom: 2px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+
+.lh{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.litem a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.oh{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.oitem a{
+    text-decoration: none;
+    color: aliceblue;
+}

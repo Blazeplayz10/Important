@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "Red Hat Text";
+    src: url(./assets/fonts/RedHatText-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: "Red Hat Text";
+    margin: 0;
+}
+
+body{
+    background-color: rgb(244, 237, 235);
+    display: flex;
+}
+
+.desserts-container{
+    margin: 60px 15px 60px  60px;
+}
+
+.desserts-container h1{
+    margin-left: 30px;
+}
+.dessert-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.dessert-card{
+    margin: 30px 25px;
+    position: relative;
+}
+
+.dessert-card img{
+    border-radius: 20px;
+    width: 95%;
+}
+
+.dessert-type{
+    color: rgb(201, 174, 166);
+    margin-top: 30px;
+}
+.dessert-name{
+    font-weight: 500;
+}
+.dessert-price{
+    color: rgba(187, 86, 4, 0.856);
+    font-weight: 600;
+}
+.dessert-card button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    font-weight: 600;
+    position: absolute;
+    bottom: 14%;
+    left: 30%;
+    text-wrap: nowrap;
+}
+.dessert-card button > img{
+    margin-right: 5px;
+    height: 30px;
+}
+.cart{
+    margin-top: 60px;
+    background-color: white;
+    height: fit-content;
+    padding: 35px;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+.cart-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cart-body img{
+    width: 50%;
+    margin: 20px auto;
+}
+.cart-body p{
+    font-size: 16px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+    body{
+        display: block;
+    }
+    .desserts-container{
+        margin: 10px;
+    }
+    .desserts-container h1{
+        margin: 10px;
+    }
+    .dessert-menu{
+        grid-template-columns: 1fr;
+    }
+    .dessert-card{
+        margin: 10px;
+        height: fit-content;
+    }
+    .dessert-card img{
+        width: 100%;
+        height: 10%;
+        border-radius: 10px;
+    }
+    .dessert-type{
+        margin-top: 25px;
+    }
+    .dessert-card button{
+        bottom: 18%;
+        left: 24%;
+        padding: 5px 10px;
+    }
+    .dessert-card button > img{
+        padding: 5px;
+        width: 25px;
+    }
+    .cart{
+        width: 93vw;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 30px 10px;
+    }
+    .cart-body{
+        padding: 0;
+    }
+    .cart-body p{
+        margin: 0 auto;
+    }
+    .cart-body img{
+        width: 35%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 425px){
+    body{
+        display: block;
+    }
+    .desserts-container{
+        margin: 10px;
+    }
+    .desserts-container h1{
+        margin: 10px;
+    }
+    .dessert-menu{
+        grid-template-columns: 1fr;
+    }
+    .dessert-card{
+        margin: 10px;
+        height: fit-content;
+    }
+    .dessert-card img{
+        width: 100%;
+        height: 10%;
+        border-radius: 10px;
+    }
+    .dessert-type{
+        margin-top: 25px;
+    }
+    .dessert-card button{
+        bottom: 16%;
+        left: 26%;
+    }
+    .dessert-card button > img{
+        padding: 5px;
+        width: 25px;
+    }
+    .cart{
+        width: 93vw;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 30px 10px;
+    }
+    .cart-body{
+        padding: 0;
+    }
+    .cart-body p{
+        margin: 0 auto;
+    }
+    .cart-body img{
+        width: 35%;
+        margin: 0 auto;
+    }   
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+    body{
+        display: block;
+    }
+    .desserts-container{
+        margin: 10px;
+    }
+    .dessert-menu{
+        grid-template-columns: 1fr 1fr;
+    }
+    .dessert-card{
+        padding: 20px;
+    }
+    .dessert-card img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .dessert-type{
+        margin-top: 15px;
+    }
+    .dessert-card button{
+        bottom: -2%;
+        left: 26%;
+    }
+    .dessert-card button > img{
+        padding: 5px;
+        width: 25px;
+    }
+    .cart{
+        width: 90%;
+        border-radius: 0px;
+    }
+    .cart-body p{
+        font-size: larger;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px){
+    body{
+        display: block;
+    }
+    .dessert-card{
+        margin: 10px;
+    }
+    .dessert-card button{
+        padding: 5px 20px;
+        width: max-content;
+        bottom: 22%;
+        left: 13%;
+    }
+    .dessert-type{
+        margin-top: 15px;
+    }
+    .cart{
+        margin-right: 0px;
+        border-radius: 0px
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    .dessert-card img{
+        width: 100%;
+    }
+    .dessert-card button{
+        bottom: 30%;
+        left: 16%;
+        padding: 5px 10px;
+    }
+    .dessert-card button > img{
+        padding: 2px;
+        height: 25px;
+    }
+    .dessert-type{
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 1700px){
+    .dessert-card button{
+        bottom: 19%;
+        left: 22%;
+    }
+    .dessert-type{
+        margin-top: 20px;
+    }
+}

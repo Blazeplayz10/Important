@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(50, 180, 50);
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.wed{
+    background-color: white;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 32%;
+    margin-left: 400px;
+}
+
+.a{
+    background-color: rgb(60, 115, 187);
+    color: white;
+    border-radius: 30px;
+    border: 3px solid rgb(60, 115, 187);
+    border-color: rgb(60, 115, 187);
+}
+
+.b{ 
+    background-color: rgb(157, 38, 204);
+    color: white;
+    border-radius: 30px;
+    border-color: rgb(157, 38, 204);
+    border: 3px solid rgb(157, 38, 204);
+}
+
+.c{
+    background-color: rgb(211, 194, 39);
+    color: white;
+    border-radius: 30px;
+    border-color: rgb(211, 194, 39);
+    border: 3px solid rgb(211, 194, 39);
+}
+
+.d{
+    background-color: rgb(60, 115, 187);
+    color: white;
+    border-radius: 30px;
+    border-color: rgb(60, 115, 187);
+    border: 3px solid rgb(60, 115, 187);
+}
+
+p{
+    color: gray;
+}
+
+.q{
+    background-color: rgb(201, 199, 199);
+}

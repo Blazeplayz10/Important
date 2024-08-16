@@ -1,0 +1,67 @@
+HTML (Hypertext Markup Language):
+Basic HTML structure: <!DOCTYPE>, <html>, <head>, <title>, <body>
+HTML elements: <div>, <p>, <a>, <img>, <ul>, <li>, etc.
+Forms and inputs: <form>, <input>, <select>, <textarea>
+Semantic HTML: <header>, <nav>, <footer>, <article>, <section>
+
+
+CSS (Cascading Style Sheets):
+Selectors: element, class, id, descendant, child, attribute selectors
+Box model: margin, border, padding, content
+Positioning: static, relative, absolute, fixed
+Flexbox and Grid layout
+Media queries for responsive design
+
+
+JavaScript:
+Variables, data types, and operators
+Control flow: if-else statements, switch cases, loops (for, while)
+Functions and scope
+DOM manipulation: selecting elements, modifying content, handling events
+Asynchronous JavaScript: callbacks, promises, async/await
+
+
+
+C:
+Basics: syntax, variables, data types
+Control structures: if-else, switch, loops (for, while)
+Functions: declaration, definition, parameters, return values
+Arrays and strings
+Pointers and memory management
+
+
+
+C++:
+Object-Oriented Programming concepts: classes, objects, inheritance, polymorphism
+Standard Template Library (STL): containers (vector, list, map), algorithms
+Exception handling
+File handling: reading from and writing to files
+Smart pointers and memory management
+
+
+
+PHP (Hypertext Preprocessor):
+Syntax basics: variables, data types, operators
+Control structures: if-else, switch, loops (for, while)
+Functions and scope
+Form handling and validation
+Database connectivity with MySQL or other databases
+
+
+
+
+Python:
+Basics: variables, data types, operators
+Control flow: if-else statements, loops (for, while)
+Functions and scope
+Data structures: lists, tuples, dictionaries, sets
+File I/O and exception handling
+
+
+
+Sass (Syntactically Awesome Style Sheets):
+Variables and mixins
+Nesting selectors
+Partials and imports
+Control directives: @if, @for, @each, @while
+Extending and inheritance with @extend

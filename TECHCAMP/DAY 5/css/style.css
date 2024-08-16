@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dedcdc;
+   /* background-image: linear-gradient(rgb(0, 255, 179), rgb(0, 115, 128));*/
+}
+.main_container{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; 
+}
+
+.top header > h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.form_section_1,
+.form_section_2,
+.form_section_3{
+    margin: 6px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type=text]:hover{
+    background-color: #efefef;
+    border: 3px solid white;
+}
+
+.form_section_1 > form > label{
+    float: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+.personal_h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+.track_h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+.form_section_2 > form > label{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form_section_1{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 8px 8px; 
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.form_section_2{
+    padding: 8px 8px 10px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.form_section_3{
+    padding: 8px 8px 10px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.drop_section{
+    position: relative;
+    padding: 8px 8px 10px 20px;
+    width: 100%;
+    min-width: 200%;
+    margin-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3), rgba(60, 64, 67, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+.drop_section label{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+select::-ms-expand{
+    display: none;
+}
+
+.drop_section select{
+    appearance: none;
+    display: block;
+    width: 48%;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 16px;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    word-break: normal;
+    outline: none;
+    border-radius: 15px;
+}
+
+.text_section textarea::placeholder{
+    font-size: 1rem;
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text_section textarea{
+    resize: none;
+    outline: none;
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+    min-height: 200px;
+    max-height: 500px;
+    border-radius: 500px;
+    border-radius: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;;
+}
+
+input[type=submit]{
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

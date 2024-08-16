@@ -1,0 +1,37 @@
+THE SPIRIT OF MR OBI
+Meaning of recursion? and where it can be applied
+- Recursion is a programming concept where a function calls itself to solve a problem. Each recursive call works on a smaller piece of the problem, and the function continues to call itself until it reaches a base case—a condition that stops the recursion.
+- It can be applied in Math Computations, Data Structures, OS functions, Game Theory, etc.
+
+
+Explain the DOM
+-    DOM (Document Object Model) is a programming interface for web documents. It represents the structure of an HTML or XML document as a tree of objects, where each object corresponds to a part of the document. The DOM allows programs to dynamically access and update the content, structure, and style of a document.
+Write out 10 things you can use JS for in a webpage
+- Manipulating the DOM
+- Form Validation
+- Event handling
+- Creating animations
+- Asynchronous operations
+- Handling multimedia
+- Browser Storage
+- Interacting with APIs
+- Responsive Design
+- Creating customizable UIs
+
+
+What are API's? Mention 10 free API services
+API (Application Programming Interface) is a set of rules and tools that allows different software applications to communicate with each other. APIs define the methods and data formats that applications can use to interact with external software components, operating systems, or services.
+- PokeAPI
+- OpenWeatherMap API
+- NewsAPI
+- Firebase Auth API
+- Giphy API
+- JokeAPI
+- Dog API
+- OpenStreetMap API
+- REST Countries API
+- CoinGecko API
+
+Read on Equality operators 
+== - Equality: Used to check if two variables' values are equal
+=== - Strict equality: Used to check if a variable and its type are equal to another
